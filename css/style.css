@@ -1,11 +1,66 @@
-/*  regole generali della pagina */
+/*  REGOLE GEN DI PAGINA  */
 * {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
 }
+/* header:  */
+header {
+  background-color: lightblue;
+  height: 150px;
+}
+.nav1 {
+  height 50px;
+  background: grey;
+}
+.nav2 {
+  height 50px;
+  background: GREEN;
+}
+.nav3 {
+  height 50px;
+  background: grey;
+}
+.immaginegrande{
+  height: 100px;
+  background:green;
+}
+/* IDEA:  */
 
-body {
-  background: red;
+.powerful{
+  height: 100px;
+  background:lightblue;
+}
+.freehubspot{
+  height: 100px;
+  background:lightgreen;
+}
+
+/* IDEA:  */
+.3div{
+  height: 100px;
+  background:lightblue;
+}
+/* IDEA:  */
+.txtabella{
+  height: 100px;
+  background:lightblue;
+}
+.tabella{
+  height: 100px;
+  background:gray;
+}
+.shopify{
+  height: 100px;
+  background:lightgreen;
+}
+.startgrowing{
+  height: 100px;
+  background:lightblue;
+}
+/* IDEA:  */
+footer{
+  height: 100px;
+  background:blue;
 }
