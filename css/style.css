@@ -10,14 +10,50 @@ header {
   background-color: lightblue;
   height: 150px;
 }
+/* nav1:  */
 .nav1 {
   height 50px;
-  background: grey;
+  background: GREEN;
+  display: block;
 }
+.nav1::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* NAV1LEFT */
+.nav1left{
+  float: left;
+  width: 20%;
+  border: 1px solid black;/* DEBUG:  */
+  height: 100%;
+  line-height: 100px;
+}
+/* nav1mid */
+.nav1mid{
+  float: left;
+  width: 20%;
+  border: 1px solid black;/* DEBUG:  */
+  height: 100%;
+  line-height: 100px;
+}
+/* nav1right */
+.nav1right{
+  float: right;
+  width: 20%;
+  border: 1px solid black;/* DEBUG:  */
+  height: 100%;
+  line-height: 100px;
+}
+
+/* nav2:  */
+
+
 .nav2 {
   height 50px;
   background: GREEN;
 }
+/* nav3 */
 .nav3 {
   height 50px;
   background: grey;
