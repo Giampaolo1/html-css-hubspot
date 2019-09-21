@@ -5,6 +5,10 @@
   border: 0;
   box-sizing: border-box;
 }
+/* font */
+body {
+  font-family: 'Roboto', sans-serif;
+}
 /* header:  */
 
 /* IDEA:  */
@@ -34,12 +38,12 @@
   display: table;
   clear: both;
 }
-/* NAV1LEFT */
+/* nav1left */
 .nav1left{
   float: left;
   width: 5%;
   text-align: right;
-  color: orange
+  color: #FF8F73;
 }
 /* nav1mid */
 .nav1mid {
@@ -64,7 +68,7 @@
 /* nav2:  */
 .nav2 {
   height: 50px;
-  background: lightgrey;
+  background: #FFF2EE;
   padding: 10px;
   width: 100%;
 }
@@ -77,31 +81,69 @@
   margin-left: 20%;
   margin-right: 20%;
 }
-/* IDEA:  */
+/* nav2left:  */
 .nav2left {
   float: left;
   width: 70%;
 }
+/* nav2right:  */
 .nav2right{
   float: right;
   width: 30%;
 }
+.nav2right a{
+  color: white;
+}
 .button{
   border: solid 1px black;
-  background: orange;
-  color: white;
+  background: #FF8F73;
   padding: 10% 10%;
 }
+  /* nav3:  */
+  .nav3 {
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+  }
+  .nav3::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .nav3 ul{
+    margin-left: 30%;
+    margin-right: 15%;
+  }
+  /* nav3left:  */
+  .nav3left {
+    float: left;
+    width: 40%;
+  }
+  /* nav3right:  */
+  .nav3right{
+    float: right;
+    width: 60%;
+  }
 
-/* nav3 */
-.nav3 {
-  height 50px;
-  background: grey;
+/* img grande:  */
+
+.container {
+  height: 500px;
+  background-color: #FFF2EE;
+  background-image: url(../img/sfondo.png);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: 95% 95%;
 }
-.immaginegrande{
-  height: 100px;
-  background:green;
+.testo2 {
+  margin-left: 15%;
+  font-size: 10px;
 }
+.testo1 {
+  font-size: 40px;
+  margin-left: 15%;
+}
+
 /* IDEA:  */
 
 .powerful{
