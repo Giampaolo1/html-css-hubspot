@@ -8,6 +8,8 @@
 /* font */
 body {
   font-family: 'Roboto', sans-serif;
+
+  /* @font-face. */
 }
 /* header:  */
 
@@ -91,6 +93,7 @@ body {
   float: right;
   width: 30%;
 }
+/* BOTTONI */
 .bianco{
   color: white;
   text-decoration: none;
@@ -100,6 +103,8 @@ body {
   background: #FF8F73;
   padding: 5px 5px;
 }
+/* FINE BOTTONI  */
+
   /* nav3:  */
   .nav3 {
     height: 50px;
@@ -130,13 +135,14 @@ body {
 
 /* img grande:  */
 
-.container {
+.containerimggrande {
   height: 500px;
   background-color: #FFF2EE;
   background-image: url(../img/sfondo.png);
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 95% 95%;
+  border-bottom: 1px solid;
 }
 .testo2 {
   margin-left: 14%;
@@ -158,13 +164,12 @@ body {
 .cubo {
 text-align: center;
 background-color: #FFF2EE;
+padding-top: 30px;
 }
-#cubo {
-width: 13%;
-}
+.cubo > img {width: 13%}
 
 .powerful{
-  height: 300px;
+  height: auto;
   background-color: #FFF2EE;
   font-size: 25px;
   text-align: center;
@@ -177,10 +182,39 @@ width: 13%;
   padding: 20px;
 }
 
+/* FREE HUBSPOT */
 
-.freehubspot{
-  height: 100px;
-  background:lightgreen;
+.containerpartecentrale {
+  background-color: #FFF2EE;
+}
+.containerfreehs::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.containerfreehs{
+  width: 50%;
+  margin-left: 25%;
+  border: solid 1px;
+}
+.libro > img {width: 100%}
+
+.libro {
+  float: left;
+  padding: 25px;
+  width: 30%;
+}
+.testofreehs {
+  font-size: 15px;
+  color: purple;
+  padding: 20px;
+  float: right;
+  width: 70%;
+}
+.containerfreehs p {
+  font-size: 10px;
+  color: purple;
+  text-align: left;
 }
 
 /* IDEA:  */
