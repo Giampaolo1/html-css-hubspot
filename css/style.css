@@ -8,9 +8,9 @@
 /* font */
 body {
   font-family: 'Roboto', sans-serif;
-
   /* @font-face. */
 }
+
 /* header:  */
 
 /* BOTTONI */
@@ -195,6 +195,7 @@ padding-top: 30px;
 /* regole containerpartecentrale */
 .containerpartecentrale {
   background-color: #FFF2EE;
+  height: auto;
 }
 .containerpartecentrale ul {
   list-style: none;
@@ -216,6 +217,10 @@ padding-top: 30px;
   display: table;
   clear: both;
 }
+.containerpartecentrale p {
+  font-size: 10px;
+  color: purple;
+}
 /* fine regole containerpartecentrale */
 .containerfreehs{
   width: 50%;
@@ -227,7 +232,9 @@ padding-top: 30px;
 /* .containerfreehs:hover { */
       /* transform: scale(1.1); */
 
-.libro > img {width: 100%}
+/* .libro img {
+  width: 100%;
+} */
 
 .libro {
   float: left;
@@ -244,45 +251,57 @@ padding-top: 30px;
   float: right;
   width: 70%;
 }
-.containerfreehs p {
-  font-size: 10px;
-  color: purple;
-  text-align: left;
-}
 
 /* sezione 3 colonne */
+/* hubs */
 .hubs::after{
   content: "";
   display: table;
   clear: both;
 }
 .hubs {
-  height: 300px;
   margin-left: 25%;
   margin-right: 25%;
+  margin-top: 20px;
 }
+.hubs h4 {
+  text-align: center;
+  color: purple;
+}
+
+/* hub1 */
 .hub1{
   width: 30%;
-  border: solid 1px;
   background-color: white;
   float: left;
-  height: 300px;
 }
+.hubs img {
+  width: 60%;
+  margin: 20px;
+  margin-left: 30px;
+  display: inline-block;
+  /* vertical-align: middle; */
+}
+.lm2 {
+  margin-left: 35px;
+  margin-bottom: 80px;
+}
+.center{
+  text-align: center;
+}
+/* hub2 */
 .hub2{
   width: 30%;
-  border: solid 1px;
   background-color: white;
   float: left;
-  height: 300px;
   margin-left: 5%;
   margin-right: 5%;
 }
+/* hub3 */
 .hub3{
   width: 30%;
-  border: solid 1px;
   background-color: white;
   float: right;
-  height: 300px;
 
 
 
