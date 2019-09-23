@@ -36,6 +36,12 @@ body {
 .tuttelenav a {
   text-decoration: none;
 }
+.tuttelenav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 /* nav1:  */
 .nav1 {
@@ -111,6 +117,7 @@ body {
     height: 50px;
     padding: 10px;
     width: 100%;
+    background: white;
   }
   .nav3::after{
     content: "";
@@ -144,6 +151,7 @@ body {
   background-size: 120%;
   background-position: 95% 95%;
   border-bottom: 1px solid;
+  margin-top: 150px;
 }
 .testo2 {
   margin-left: 14%;
