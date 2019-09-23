@@ -220,9 +220,13 @@ padding-top: 30px;
 .containerfreehs{
   width: 50%;
   margin-left: 25%;
-  border: solid 1px;
+  margin-right: 25%;
   background-color: white;
 }
+
+/* .containerfreehs:hover { */
+      /* transform: scale(1.1); */
+
 .libro > img {width: 100%}
 
 .libro {
@@ -246,12 +250,46 @@ padding-top: 30px;
   text-align: left;
 }
 
-/* IDEA:  */
-.3div{
-  height: 100px;
-  background:lightblue;
+/* sezione 3 colonne */
+.hubs::after{
+  content: "";
+  display: table;
+  clear: both;
 }
-/* IDEA:  */
+.hubs {
+  height: 300px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.hub1{
+  width: 30%;
+  border: solid 1px;
+  background-color: white;
+  float: left;
+  height: 300px;
+}
+.hub2{
+  width: 30%;
+  border: solid 1px;
+  background-color: white;
+  float: left;
+  height: 300px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.hub3{
+  width: 30%;
+  border: solid 1px;
+  background-color: white;
+  float: right;
+  height: 300px;
+
+
+
+
+
+
+/* TABELLA  */
 .txtabella{
   height: 100px;
   background:lightblue;
